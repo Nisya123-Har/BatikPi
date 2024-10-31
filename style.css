@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 175, 175);
+    text-align: center;
+}
+
+header {
+    background-image: url('th.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran header */
+    background-position: center; /* Memposisikan gambar di tengah */
+    color: hwb(330 96% 2%);
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Ukuran font untuk judul */
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em; /* Ukuran font untuk subjudul */
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.5em; /* Ukuran font untuk judul pilihan motif */
+}
+
+.motif {
+    margin: 20px 0;
+    background: #fff; /* Warna latar belakang untuk bagian pilihan motif */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 20px; /* Padding untuk konten */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+ul {
+    list-style-type: none; /* Menghapus titik di daftar */
+    padding: 0; /* Menghapus padding default */
+}
+
+li {
+    background: #e0e0e0; /* Warna latar belakang untuk item daftar */
+    margin: 10px 0; /* Jarak antar item */
+    padding: 10px; /* Padding untuk item daftar */
+    border-radius: 5px; /* Sudut melengkung untuk item */
+    transition: background 0.3s; /* Transisi untuk efek hover */
+}
+
+li:hover {
+    background: #d4d4d4; /* Warna saat hover */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
